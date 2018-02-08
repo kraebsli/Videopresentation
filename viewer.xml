@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation width="720" height="540" start="play" buildNum="7.0.5.7588">
+	<presentationTitle></presentationTitle>
+	<speakers>
+		<speaker>
+			<name></name>
+			<image></image>
+			<email></email>
+		</speaker>
+	</speakers>
+	<backgrounds>
+		<background url="Master80000000.swf"/>
+	</backgrounds>
+	<search url="srchdata.xml"/>
+	<slides>
+		<slide id="827" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide1.swf"/>
+			<slideBackground index="0" frameToPlay="1" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>LOADING…</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="1"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="828" frameRate="30" totalFrames="363.59999999999996" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide2.swf"/>
+			<slideBackground index="0" frameToPlay="3" duration="2" showAfterFrame="0"/>
+			<flvContents>
+				<flvContent url="resources/Intro_828_1_81947.flv" PosX="168" PosY="126" Height="288" Width="384" playAfterTime="0" duration="12120" StartTime="0" StopTime="12120" FadeIn="0" FadeOut="0" FadeSpeed="1" MuteAudio="0" IsH264="0"/>
+			</flvContents>
+			<slideTitle>Intro</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="2"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="816" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide3.swf"/>
+			<slideBackground index="0" frameToPlay="5" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Titel</slideTitle>
+			<notes isHTML="true"></notes>
+			<video url="folie 50 mit blende_816_2_81627.flv" StartTime="0" StopTime="21342" MuteAudio="0" IsH264="0"/>
+			<slideThumbnail url="thumb.swf" frame="3"/>
+			<slideSpeaker index="0"/>
+		</slide>
+			</slides>
+	<attachments></attachments>
+</presentation>

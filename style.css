@@ -1,0 +1,175 @@
+/*Copyright (c) 2018 Kathrin Braungardt
+
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    Dieses Programm ist Freie Software: Sie können es unter den Bedingungen
+   	der GNU General Public License, wie von der Free Software Foundation,
+	Version 3 der Lizenz oder (nach Ihrer Wahl) jeder neueren
+	veröffentlichten Version, weiterverbreiten und/oder modifizieren.
+
+	Dieses Programm wird in der Hoffnung, dass es nützlich sein wird, aber
+	OHNE JEDE GEWÄHRLEISTUNG, bereitgestellt; sogar ohne die implizite
+	Gewährleistung der MARKTFäHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
+	Siehe die GNU General Public License für weitere Details.
+
+    Sie sollten eine Kopie der GNU General Public License zusammen mit diesem
+    Programm erhalten haben. Wenn nicht, siehe <http://www.gnu.org/licenses/>.
+
+
+ */
+body {
+
+	margin:0;
+	
+	font-family: arial, helvetica, sans-serif;
+width:100%;
+}
+#main {
+  margin-left:250px;
+    padding: 20px;
+      background-color: #FFFFFF; 
+      }
+      #open
+      {
+       float:left;
+      }
+#headline{
+	color:#585b5e;
+	padding:0.5em;
+	margin-top:0;
+}
+h3{
+	color:#585b5e;
+padding:0.5em;
+}
+#vidall
+{
+	
+	float:left;
+	
+	}
+	#slide
+{
+	
+	float:left;
+	
+	}
+	#nav
+{
+	background-color:#e8eaec;
+	float:left;
+	
+	}
+		#navsmall
+{
+	
+  border:1px;border-style:solid; border-color: #c4cace;
+	
+	}
+	 ul { 
+  padding:0.5em;
+ 
+  
+  list-style: none;
+  }
+  li
+  {
+  border-bottom:1px;border-bottom-style:solid; border-bottom-color: #c4cace;
+   padding:0.3em;
+   font-size: 0.7em;
+  }
+  	a:link {
+	color:#e9eef1;
+	border:0;
+	text-decoration: none;
+}
+
+a:visited {
+color:#e9eef1;
+	text-decoration: none;
+		border:0;
+}
+
+a:active {
+	color:#e9eef1;
+
+		border:0;	text-decoration: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #32400f;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{
+    color: #9eef1;
+}
+.sidenav a:visited{
+    color: #9eef1;
+}
+.sidenav a:active{
+    color: #9eef1;
+}
+.sp 
+{
+	 padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 13px;
+ 
+    display: block;
+    transition: 0.3s;
+    color: #76c726;
+}
+#sp2
+{border-bottom-style: solid;
+border-bottom-color:#c2c2c2;
+border-bottom-width:1px;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
